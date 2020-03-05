@@ -1,10 +1,15 @@
 import  React  from 'react';
-import s from './Header.module.css';
+import s from './Navbar.module.css';
 
-const Header = (props) => {
+const Navbar = (props) => {
     return (
-        <div className={s.header}></div>
+        <div className={s.nav}>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
     );
 }
 
-export default Header;
+export default Navbar;

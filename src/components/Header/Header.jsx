@@ -4,7 +4,7 @@ import s from './Header.module.css';
 const Header = (props) => {
     return (
         <div className={s.header}>
-            <img src={window.location.origin + '/logo512.png'} alt='fdkjg'/>
+            <img src={window.location.origin + '/logo512.png'} alt='alt'/>
         </div>
     );
 }

@@ -1,5 +1,9 @@
 .nav {
   grid-area: n;
   padding: 10px;
-  background-color: crimson;
+  background-color: rgba(0, 128, 128, 0.671);
+}
+
+.nav > div {
+  color: chartreuse;
 }
