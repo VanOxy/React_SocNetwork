@@ -1,9 +1,3 @@
-.profile {
-  grid-area: c;
-  padding: 10px;
-  background-color: wheat;
-}
-
-.profile > img {
+.ava {
   width: 130px;
 }
