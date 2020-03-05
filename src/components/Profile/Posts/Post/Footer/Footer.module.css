@@ -1,4 +1,8 @@
 .postFooter{
     display: inline-flex;
-    margin: 0 15px 0 15px;
+    margin: 0 0 0 15px;
+}
+
+.postFooter > button {
+    width: 100px;
 }

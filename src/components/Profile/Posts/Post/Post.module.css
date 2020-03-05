@@ -1,5 +1,4 @@
 .post {
-    display: table-row;
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
@@ -9,6 +8,6 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 5px 0;
+    margin: 5px 50px;
     padding: 0;
 }

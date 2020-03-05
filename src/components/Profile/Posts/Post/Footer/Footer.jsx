@@ -1,12 +1,12 @@
 import React from "react";
 import s from "./Footer.module.css";
 
-const Footer = (props) => {
+const Footer = () => {
     return (
         <div className={s.postFooter}>
-            <div>Like</div>
-            <div>Comment</div>
-            <div>Share</div>
+            <button>Like</button>
+            <button>Comment</button>
+            <button>Share</button>
         </div>
     );
 }
