@@ -1,11 +1,12 @@
 import  React  from 'react';
-import s from './MyPosts.module.css';
+import s from './Posts.module.css';
 import Post from "./Post/Post";
 
-const MyPosts = (props) => {
+const Posts = (props) => {
     let posts = [];
+    
     for (let index = 0; index <5; index++){
-        posts.push(<Post text={index} />);
+        posts.push(<Post text={index} key={index}/>);
     }
     
     return (
@@ -15,4 +16,4 @@ const MyPosts = (props) => {
     );
 }
 
-export default MyPosts;
+export default Posts;
