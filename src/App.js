@@ -1,6 +1,6 @@
-import React from 'react';
-import './App.css';
-import Header from './components/Header/Header';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header/Header";
 
 const App = () => {
   return (
@@ -9,8 +9,7 @@ const App = () => {
       <div className="nav"></div>
       <div className="content"></div>
     </div>
-
   );
-}
+};
 
 export default App;
