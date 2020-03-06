@@ -1,3 +1,4 @@
 .posts{
-    display: block;
+    display: grid;
+    grid: auto-flow / 1f;
 }

@@ -1,16 +1,19 @@
 .postTitle{
-  display: table-row;
-}
-
-.postTitleText {
-  display: inline-flex;
-  font-size: x-large;
-  margin-left: 20px;;
+  display: grid;
+  grid: auto / 50px 1fr;
 }
 
 .postTitleImage {
   width: 40px;
-  height: 40px;
-  margin: 0 15px 0 0;
-  float: left;
+  align-self: center;
+  grid-column: 1;
 }
+
+.postTitleText {
+  grid-column: 2;
+  align-self: center;
+  font-size: x-large;
+  margin-left: 1rem;
+}
+
+

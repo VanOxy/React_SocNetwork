@@ -4,9 +4,9 @@ import s from "./Footer.module.css";
 const Footer = () => {
     return (
         <div className={s.postFooter}>
-            <button>Like</button>
-            <button>Comment</button>
-            <button>Share</button>
+            <button className={s.like}>Like</button>
+            <button className={s.comment}>Comment</button>
+            <button className={s.share}>Share</button>
         </div>
     );
 }

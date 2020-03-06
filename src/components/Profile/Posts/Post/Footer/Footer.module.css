@@ -1,8 +1,17 @@
 .postFooter{
-    display: inline-flex;
-    margin: 0 0 0 15px;
+    display: grid;
+    grid: 1fr / repeat(8, 1fr);
+    grid-gap: 1rem;
 }
 
-.postFooter > button {
-    width: 100px;
+.like {
+    grid-column: 2 / 4;
+}
+
+.comment {
+    grid-column: 4 / 6;
+}
+
+.share {
+    grid-column: 6 / 8;
 }

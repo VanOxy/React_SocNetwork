@@ -12,7 +12,6 @@ const Post = (props) => {
             <Content />
             <hr/>
             <Footer />
-            <div style={{height: "30px"}}></div>
         </div>
     );
 }

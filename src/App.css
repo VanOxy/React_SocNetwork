@@ -10,6 +10,6 @@
 
 .app-wrapper-content {
     grid-area: c;
-    padding: 10px;
-    background-color: wheat;
+    margin: 1rem;
+    font: 12px system-ui;
 }
