@@ -4,6 +4,10 @@
   background-color: rgba(0, 128, 128, 0.671);
 }
 
-.nav > div {
+a {
   color: chartreuse;
+}
+
+a.active {
+  color: gold;
 }
