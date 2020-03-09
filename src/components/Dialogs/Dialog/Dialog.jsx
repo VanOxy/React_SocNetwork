@@ -4,7 +4,7 @@ import s from "./Dialog.module.css";
 const Dialog = (props) => {
     return (
         <div className={s.dialog}>
-            Dialog number: {props.text}
+            {props.text}
         </div>
     );
 }

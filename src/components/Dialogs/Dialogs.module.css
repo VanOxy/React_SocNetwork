@@ -1,0 +1,12 @@
+.dialogs{
+    display: grid;
+    grid: auto / 3fr 9fr;
+}
+
+.dialogsItems{
+    background-color: greenyellow;
+}
+
+.messages{
+    background-color: gold;
+}
