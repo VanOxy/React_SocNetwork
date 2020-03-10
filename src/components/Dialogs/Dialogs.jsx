@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./Dialogs.module.css";
 import Dialog from "./Dialog/Dialog";
+import Message from "./Message/Message";
 
 
 const Dialogs = (props) => {
@@ -17,9 +18,9 @@ const Dialogs = (props) => {
         return result;
     }
 
-    for (let index = 0; index <5; index++){
-        dialogs.push(<Dialog text={index} />);
-        messages.push(<Dialog text={stringGenregator(70)} />);
+    for (let index = 1; index <6; index++){
+        dialogs.push(<Dialog text={index} id={index}/>);
+        messages.push(<Message text={stringGenregator(70)} />);
     }
 
     return (
